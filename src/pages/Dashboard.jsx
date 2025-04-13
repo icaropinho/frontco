@@ -84,7 +84,7 @@ export default function Dashboard() {
                 <MenuIcon className="h-6 w-6" />
               </Button>
             </SheetTrigger>
-            <SheetContent side="right" className="w-64 bg-black text-white dark:bg-black dark:text-white">
+            <SheetContent side="right" className="w-64 bg-white text-black dark:bg-white dark:text-black">
               <Menu>
                 <MenuItem>Five Whys</MenuItem>
                 <MenuItem>A3</MenuItem>
@@ -157,6 +157,11 @@ export default function Dashboard() {
             </CardContent>
           </Card>
         </motion.div>
+      </main>
+    </div>
+  );
+}
+
       </main>
     </div>
   );
