@@ -84,9 +84,9 @@ export default function Dashboard() {
                 <MenuIcon className="h-6 w-6" />
               </Button>
             </SheetTrigger>
-            <SheetContent side="right" className="w-64">
+            <SheetContent side="right" className="w-64 bg-black text-white">
               <Menu>
-                <MenuItem>Five Why's</MenuItem>
+                <MenuItem>Five Whys</MenuItem>
                 <MenuItem>A3</MenuItem>
                 <MenuItem>PDCA</MenuItem>
               </Menu>
