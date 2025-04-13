@@ -12,8 +12,12 @@ export const Button = ({ children, variant = "default", size = "md", className =
     sm: "text-xs px-3 py-1.5",
     icon: "p-2"
   };
+
   return (
-    <button className={\`\${base} \${variants[variant]} \${sizes[size]} \${className}\`} {...props}>
+    <button
+      className={`${base} ${variants[variant]} ${sizes[size]} ${className}`}
+      {...props}
+    >
       {children}
     </button>
   );
