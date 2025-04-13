@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Card, CardContent } from "@/components/ui/card";
@@ -87,9 +86,9 @@ export default function Dashboard() {
             </SheetTrigger>
             <SheetContent side="right" className="w-64">
               <Menu>
-                <MenuItem>Início</MenuItem>
-                <MenuItem>Sobre</MenuItem>
-                <MenuItem>Contato</MenuItem>
+                <MenuItem>Five Why's</MenuItem>
+                <MenuItem>A3</MenuItem>
+                <MenuItem>PDCA</MenuItem>
               </Menu>
             </SheetContent>
           </Sheet>
